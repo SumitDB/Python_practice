@@ -13,7 +13,7 @@ number.sort()
 print(number)
 
 """
-
+"""
 #Question2
 input =  [1,2,'A',8,'G',3,'X','M',9]
 new_list=[]
@@ -23,17 +23,15 @@ for i in range (len):
     
     
 print(a)
-
 """
 
+"""
 #Question3
 input ='I!am!a!coder'
 output=" ".join(reversed(input.split("!")))
 print(output)
-
-
 """
-
+"""
 #Question4
 a=[2,0,3,3,4,4,5]
 output=[0,]
@@ -47,15 +45,9 @@ for key,value in element_count.items():
     output.append(value)
 print(output)
 
-
 """
-
-
+"""
 #Question5
-
-
-
-
 k =3
 Arr=[7,6,1,2,4,5]
 Arr.sort()
@@ -64,13 +56,7 @@ while count<4:
     for i in Arr:
        count+=1
     
-    """
-
-
-
-
-
-
+"""
 """
 #Question6
 n1={"a1":10,"b2":20,"c3":30}
