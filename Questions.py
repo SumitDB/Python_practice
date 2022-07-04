@@ -20,8 +20,6 @@ new_list=[]
 len=len(str(input))
 for i in range (len):
     new_list.insert(i,input[-1])
-    
-    
 print(a)
 """
 
@@ -35,13 +33,13 @@ print(output)
 #Question4
 a=[2,0,3,3,4,4,5]
 output=[0,]
-element_count={}
+ele_count={}
 for element in a:
-    if element in element_count:
-        element_count[element]+=1
+    if element in ele_count:
+        ele_count[element]+=1
     else:
-        element_count[element]=1
-for key,value in element_count.items():
+        ele_count[element]=1
+for key,value in ele_count.items():
     output.append(value)
 print(output)
 
@@ -50,13 +48,14 @@ print(output)
 #Question5
 k =3
 Arr=[7,6,1,2,4,5]
+new_list=[]
+
 Arr.sort()
-count=0
-while count<4:
-    for i in Arr:
-       count+=1
-    
+output=Arr[3]
+print(output)
 """
+
+
 """
 #Question6
 n1={"a1":10,"b2":20,"c3":30}
